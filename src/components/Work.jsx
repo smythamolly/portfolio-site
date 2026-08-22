@@ -1,39 +1,40 @@
-import { projects } from '../data/site'
+import { featuredProjects, href, img, work } from '../data/site'
 import Section from './Section'
 import './Work.css'
 
 export default function Work() {
   return (
-    <Section
-      id="work"
-      eyebrow="Selected work"
-      title="Recent projects"
-      lead="A sample of engagements across design systems, product interfaces, and front-end delivery."
-    >
+    <Section id="work" eyebrow={work.eyebrow} title={work.title} lead={work.lead}>
       <ul className="work">
-        {projects.map((project, i) => (
-          <li key={project.title} className="work__row reveal" style={{ '--delay': `${0.05 * i}s` }}>
-            <a className="work__link" href={project.href}>
-              <span className="work__year">{project.year}</span>
+        {featuredProjects.map((project, i) => (
+          <li key={project.title} className="work__item reveal" style={{ '--delay': `${0.06 * i}s` }}>
+            <a className="work__card" href={href(project)}>
+              <figure className="work__figure">
+                <img src={img(project.image)} alt={project.alt} loading="lazy" />
+              </figure>
 
-              <span className="work__body">
-                <span className="work__heading">
-                  <h3 className="work__title">{project.title}</h3>
-                  <span className="work__category">{project.category}</span>
-                </span>
-                <span className="work__summary">{project.summary}</span>
-                <span className="work__tags">
+              <div className="work__body">
+                <div className="work__meta">
+                  <span>{project.subtitle}</span>
+                  <span>{project.year}</span>
+                </div>
+
+                <h3 className="work__title">{project.title}</h3>
+                <p className="work__summary">{project.summary}</p>
+
+                <ul className="work__tags">
                   {project.tags.map((tag) => (
-                    <span key={tag}>{tag}</span>
+                    <li key={tag}>{tag}</li>
                   ))}
-                </span>
-              </span>
+                </ul>
 
-              <span className="work__cue" aria-hidden="true">
-                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.3">
-                  <path d="M4 10h12M11 5l5 5-5 5" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </span>
+                <span className="work__cue">
+                  View project
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true">
+                    <path d="M4 10h12M11 5l5 5-5 5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </span>
+              </div>
             </a>
           </li>
         ))}

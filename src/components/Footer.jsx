@@ -1,5 +1,11 @@
-import { navLinks, profile } from '../data/site'
+import { profile, routes } from '../data/site'
 import './Footer.css'
+
+const links = [
+  { label: 'Air Purifier', href: routes.airPurifier },
+  { label: 'Making and Art', href: routes.portfolio },
+  { label: 'Email', href: `mailto:${profile.email}` },
+]
 
 export default function Footer() {
   return (
@@ -9,12 +15,11 @@ export default function Footer() {
           © {new Date().getFullYear()} {profile.name} · {profile.role}
         </p>
         <nav className="footer__links" aria-label="Footer">
-          {navLinks.map((link) => (
+          {links.map((link) => (
             <a key={link.href} href={link.href}>
               {link.label}
             </a>
           ))}
-          <a href="#top">Back to top</a>
         </nav>
       </div>
     </footer>

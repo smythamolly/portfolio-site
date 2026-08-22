@@ -1,10 +1,10 @@
-import { profile } from '../data/site'
+import { about, profile } from '../data/site'
 import Section from './Section'
 import './About.css'
 
 export default function About() {
   return (
-    <Section id="about" eyebrow="About" title="Background" className="section--alt">
+    <Section id="about" eyebrow={about.eyebrow} title={about.title}>
       <div className="about">
         <div className="about__body reveal">
           {profile.bio.map((paragraph) => (
