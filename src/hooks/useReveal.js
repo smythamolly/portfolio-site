@@ -1,12 +1,21 @@
 import { useEffect, useRef, useState } from 'react'
 
-export function useReveal({ threshold = 0.18, once = true } = {}) {
+/**
+ * Adds `is-visible` once the element enters the viewport.
+ *
+ * Threshold is 0 on purpose: a tall section only ever shows a small fraction of
+ * itself above the fold, so any higher value leaves it hidden on first paint.
+ */
+export function useReveal({ threshold = 0, once = true } = {}) {
   const ref = useRef(null)
-  const [visible, setVisible] = useState(false)
+
+  // Without observer support, show everything rather than hiding it forever.
+  const supported = typeof IntersectionObserver !== 'undefined'
+  const [visible, setVisible] = useState(!supported)
 
   useEffect(() => {
     const node = ref.current
-    if (!node) return
+    if (!node || !supported) return
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -17,12 +26,12 @@ export function useReveal({ threshold = 0.18, once = true } = {}) {
           setVisible(false)
         }
       },
-      { threshold, rootMargin: '0px 0px -8% 0px' },
+      { threshold, rootMargin: '0px 0px -5% 0px' },
     )
 
     observer.observe(node)
     return () => observer.disconnect()
-  }, [threshold, once])
+  }, [threshold, once, supported])
 
   return [ref, visible]
 }

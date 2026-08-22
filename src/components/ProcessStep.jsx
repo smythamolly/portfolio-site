@@ -3,7 +3,7 @@ import { useReveal } from '../hooks/useReveal'
 import './ProcessStep.css'
 
 export default function ProcessStep({ step }) {
-  const [ref, visible] = useReveal({ threshold: 0.08 })
+  const [ref, visible] = useReveal()
 
   return (
     <section className={`step ${visible ? 'is-visible' : ''}`} ref={ref}>
