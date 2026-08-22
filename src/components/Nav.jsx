@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { navLinks, profile } from '../data/site'
+import { navLinks, profile, routes } from '../data/site'
 import './Nav.css'
 
 export default function Nav() {
@@ -23,8 +23,9 @@ export default function Nav() {
   return (
     <header className={`nav ${scrolled ? 'is-scrolled' : ''} ${open ? 'is-open' : ''}`}>
       <div className="shell nav__inner">
-        <a className="nav__brand" href="#top" onClick={() => setOpen(false)}>
-          {profile.name}
+        <a className="nav__brand" href={routes.home} onClick={() => setOpen(false)}>
+          <span className="nav__name">{profile.name}</span>
+          <span className="nav__role">{profile.role}</span>
         </a>
 
         <nav className="nav__links" aria-label="Primary">

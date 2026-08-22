@@ -4,7 +4,7 @@ import './About.css'
 
 export default function About() {
   return (
-    <Section id="about" eyebrow="About" title="Background" className="section--alt">
+    <Section id="about" eyebrow="About" title="A workshop off the kitchen">
       <div className="about">
         <div className="about__body reveal">
           {profile.bio.map((paragraph) => (

@@ -1,85 +1,86 @@
-export const profile = {
-  name: 'Molly Smyth',
-  role: 'Product Designer & Front-End Developer',
-  availability: 'Available for new work',
-  intro:
-    'I design and build product interfaces — from research and design systems through to production React.',
-  bio: [
-    'I work across design and engineering, which means I can take an idea from early definition through to shipped, maintainable code. Most of my work is on product teams: design systems, complex interfaces, and the front-end architecture that keeps them consistent as they scale.',
-    'I care about clarity over decoration, interfaces that stay fast on modest hardware, and documentation that lets a team keep moving after I hand off.',
-  ],
-  details: [
-    { label: 'Based in', value: 'Remote · GMT' },
-    { label: 'Experience', value: '6 years, agency and in-house' },
-    { label: 'Focus', value: 'Design systems, product UI' },
-  ],
-  email: 'smyth.a.molly@gmail.com',
-  socials: [
-    { label: 'GitHub', href: 'https://github.com/smythamolly' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/' },
-  ],
+const base = import.meta.env.BASE_URL
+
+export const routes = {
+  home: base,
+  portfolio: `${base}portfolio/`,
+  airPurifier: `${base}projects/air-purifier/`,
 }
 
-export const projects = [
+export const img = (path) => `${base}images/${path}`
+
+export const profile = {
+  name: 'Molly Smyth',
+  role: 'Product Design Student',
+  availability: 'Open to placements and studio work',
+  intro: 'I design objects, and I make them to find out whether they work.',
+  standfirst:
+    'Product design student working through sketching, clay, foam and workshop tools — from first idea to a resolved model I can hold.',
+  bio: [
+    'I grew up with a workshop attached to the kitchen. My dad is a carpenter, now a lecturer in construction site management and a harp maker, and from about three years old I was handing up tools on treehouses, swing sets and monkey bars until I was trusted to use them myself. What that really taught me was that I could make anything — I only had to have an idea, design it and build it.',
+    'That has turned into a way of working. I sketch broadly before committing, model early in clay, card or foam so I can judge a form in the hand rather than on a page, and keep developing an idea well past the point where it first looks finished.',
+  ],
+  details: [
+    { label: 'Studying', value: 'Product Design, University of Limerick' },
+    { label: 'Based in', value: 'Ireland' },
+    { label: 'Recent', value: 'Air purifier — aesthetic design project' },
+  ],
+  email: 'smyth.a.molly@gmail.com',
+  socials: [{ label: 'GitHub', href: 'https://github.com/smythamolly' }],
+}
+
+export const philosophy = {
+  lead: 'I want to design products that solve problems worth solving.',
+  body: [
+    "I'm drawn to the psychology behind a design — how principles like MAYA, or a user's own biases, shape whether a product is understood and accepted. I'm just as interested in what layout, composition, colour and type communicate before a single word is read.",
+    'My values point me toward life-centred design rather than purely human-centred: a design should be judged on its effect on the wider world, not only on the person holding it. On style, I sit between the ornate detail of traditional craftsmanship and the stripped-back minimalism that dominates now. Considered detail, achievable in real manufacturing — because less is not always more. Removing every button can make a product harder to use, not simpler.',
+    'If design is partly about how something makes a person feel, I want people to feel that what they have bought was well considered, well made and built to last. Genuine sustainability means longevity: objects that can be repaired, with components that can be replaced.',
+  ],
+  attribution: 'From my design manifesto, April 2026',
+}
+
+export const strengths = [
   {
-    title: 'Fernwood',
-    category: 'Design system',
-    year: '2025',
-    summary:
-      'Component library and documentation site for a 30-person product team. Reduced new feature build time by roughly half.',
-    tags: ['React', 'Tokens', 'Documentation'],
-    href: '#',
+    title: 'Making and modelling',
+    body: 'Clay, foam, card and cardboard prototypes used as thinking tools, plus workshop skills from lathe turning to carving and finishing.',
   },
   {
-    title: 'Terrace',
-    category: 'Product design & build',
-    year: '2025',
-    summary:
-      'End-to-end design and front-end delivery of a scheduling application, including an offline-first data layer.',
-    tags: ['Product', 'UX Research', 'PWA'],
-    href: '#',
+    title: 'Drawing and communication',
+    body: 'Ideation sketching, orthographic and manufacturing drawings, rendering and presentation pages that explain how an object works.',
   },
   {
-    title: 'Understory',
-    category: 'Editorial platform',
-    year: '2024',
-    summary:
-      'Long-form publishing platform with a bespoke reading experience and a responsive typographic system.',
-    tags: ['Typography', 'CMS', 'Performance'],
-    href: '#',
-  },
-  {
-    title: 'Loam',
-    category: 'Accessibility audit',
-    year: '2024',
-    summary:
-      'WCAG 2.2 AA audit and remediation across a climate-tech dashboard, delivered with a prioritised fix roadmap.',
-    tags: ['Accessibility', 'Audit', 'Remediation'],
-    href: '#',
+    title: 'Curiosity and empathy',
+    body: 'A persistent interest in why a designer made the choices they did, and in the needs and frustrations of the person who ends up using the result.',
   },
 ]
 
-export const capabilities = [
+export const featuredProjects = [
   {
-    title: 'Interface design',
-    body: 'Product and marketing interfaces designed as systems — type scales, colour, spacing, and component states that hold up as a product grows.',
-    skills: ['Figma', 'Design systems', 'Prototyping', 'Accessibility'],
+    title: 'Air Purifier',
+    subtitle: 'Aesthetic design project',
+    year: '2026',
+    summary:
+      'A form-led air purifier developed from a style board of arches, stained glass and negative space — through ideation, clay and foam prototypes to a resolved final model.',
+    tags: ['Ideation', 'Prototyping', 'Foam modelling', 'Rendering'],
+    href: routes.airPurifier,
+    image: 'air-purifier/final-hero.jpg',
+    alt: 'Final foam model of the air purifier, a curved form with an open centre and vent panel',
   },
   {
-    title: 'Front-end engineering',
-    body: 'Production React with semantic markup, a small dependency footprint, and a strong bias toward performance and maintainability.',
-    skills: ['React', 'TypeScript', 'CSS architecture', 'Vite'],
-  },
-  {
-    title: 'Design operations',
-    body: 'Documentation, contribution models, and the review practices that keep a design system usable by the whole team, not just its authors.',
-    skills: ['Documentation', 'Governance', 'Handoff', 'Workshops'],
+    title: 'Making and Art',
+    subtitle: 'Selected work',
+    year: '2022 — 2025',
+    summary:
+      'Pen turning, an award-winning board game, a plantable greeting card company, carving, watercolour and a Junk Kouture dress built from a wedding dress and crisp packets.',
+    tags: ['Craft', 'Graphics', 'Drawing', 'Enterprise'],
+    href: routes.portfolio,
+    image: 'portfolio/junk-kouture-dress.jpg',
+    alt: 'Rose gold Junk Kouture dress made from repurposed party decorations',
   },
 ]
 
 export const navLinks = [
-  { label: 'Work', href: '#work' },
-  { label: 'About', href: '#about' },
-  { label: 'Capabilities', href: '#capabilities' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Work', href: `${base}#work` },
+  { label: 'Philosophy', href: `${base}#philosophy` },
+  { label: 'About', href: `${base}#about` },
+  { label: 'Contact', href: `${base}#contact` },
 ]

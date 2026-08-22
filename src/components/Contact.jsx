@@ -4,11 +4,11 @@ import './Contact.css'
 
 export default function Contact() {
   return (
-    <Section id="contact" eyebrow="Contact" title="Start a conversation" className="section--alt">
+    <Section id="contact" eyebrow="Contact" title="Get in touch" className="section--alt">
       <div className="contact reveal">
         <p className="contact__lead">
-          I take on a small number of projects at a time. Send a short outline of what you're
-          working on and I'll respond within two business days.
+          I'm looking for placements, studio experience and projects where I can be involved in
+          making as well as designing. Do get in touch.
         </p>
 
         <a className="contact__email" href={`mailto:${profile.email}`}>
