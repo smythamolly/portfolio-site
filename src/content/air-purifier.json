@@ -1,0 +1,261 @@
+{
+  "title": "Air Purifier",
+  "subtitle": "Aesthetic design project",
+  "year": "2026",
+  "intro": "An air purifier designed for form first: a curved body with an open centre, a channel carried from the top opening down to the side, and a vent panel patterned after stained glass. Developed from a style board through sketching, clay and foam to a resolved final model.",
+  "meta": [
+    { "label": "Project", "value": "Aesthetic design, semester 2" },
+    { "label": "Schedule", "value": "Weeks 8 to 12, planned from a project timeline" },
+    { "label": "Methods", "value": "Ideation sketching, clay and foam modelling, technical drawing, rendering" }
+  ],
+  "hero": {
+    "image": "air-purifier/final-hero.jpg",
+    "alt": "Final foam model of the air purifier standing on a pale surface, a curved body with an open centre"
+  },
+  "sections": [
+    {
+      "number": "01",
+      "title": "Style board",
+      "body": [
+        "I started by collecting the design elements I wanted the project to sit on: the shapes and patterns of stained glass windows, repeated curves and perfect circles, repeating lines, texture, and the use of negative space. I kept referring back to this board at every stage, and it is the reason the final object looks the way it does."
+      ],
+      "images": [
+        {
+          "src": "air-purifier/styleboard.jpg",
+          "alt": "Style board of stained glass windows, arches, curved seating and timber textures",
+          "caption": "The board I worked from throughout — arches, grids, negative space.",
+          "span": "wide"
+        }
+      ]
+    },
+    {
+      "number": "02",
+      "title": "Ideation",
+      "body": [
+        "The ideation phase was about volume. I generated as many forms as I could, each one pulling on something from the board — an arch, a repeated line, a cut-out — rather than trying to arrive at an answer early."
+      ],
+      "images": [
+        {
+          "src": "air-purifier/ideation-1.jpg",
+          "alt": "Sheet of pencil ideation sketches exploring arched and panelled forms"
+        },
+        {
+          "src": "air-purifier/ideation-2.jpg",
+          "alt": "Further ideation sketches of cylindrical and stacked forms"
+        },
+        {
+          "src": "air-purifier/ideation-3.jpg",
+          "alt": "Ideation sketches of conical, triangular and arched product forms"
+        }
+      ]
+    },
+    {
+      "number": "03",
+      "title": "First models",
+      "body": [
+        "I used plasticine to make quick models and see the shapes in three dimensions — interlocking curves, and a panel with an inlaid pattern taken directly from the stained glass windows."
+      ],
+      "images": [
+        {
+          "src": "air-purifier/clay-panel.jpg",
+          "alt": "Plasticine panel carved with an inlaid pattern of irregular shapes",
+          "caption": "An inlaid panel, the first version of what became the vent."
+        },
+        {
+          "src": "air-purifier/clay-curve.jpg",
+          "alt": "Small clay model of interlocking curved forms"
+        }
+      ]
+    },
+    {
+      "number": "04",
+      "title": "Three concepts",
+      "body": [
+        "From the sketches I chose three concepts and worked each one up as a presentation drawing and a model. The first repeated a circular element through stacked cones. The second was built on negative space and the way curved lines met. The third combined a rectilinear base with a curved top and fully cut-out shapes.",
+        "Modelling them mattered more than drawing them. Making the second concept as separate components let me rearrange them into different shapes, and leaving an overhang in the paper wrapped around the frame gave a slight instep that made the form more interesting."
+      ],
+      "images": [
+        {
+          "src": "air-purifier/concept-1.jpg",
+          "alt": "Presentation drawing of concept one, a stacked cone form with front, side and back views"
+        },
+        {
+          "src": "air-purifier/concept-2.jpg",
+          "alt": "Presentation drawing of concept two, interlocking curved forms with top, side and bottom views"
+        },
+        {
+          "src": "air-purifier/concept-2-model.jpg",
+          "alt": "Cardboard model of concept two showing interlocking leaf-shaped curves",
+          "caption": "Concept two, built as separate components so it could be rearranged."
+        },
+        {
+          "src": "air-purifier/concept-3.jpg",
+          "alt": "Presentation drawing of concept three, an arched body with cut-out panels"
+        },
+        {
+          "src": "air-purifier/concept-3-model.jpg",
+          "alt": "White card model of concept three with cut-out arched panels"
+        }
+      ]
+    },
+    {
+      "number": "05",
+      "title": "Development",
+      "body": [
+        "I took the third concept forward. Its shape reminded me of rocks the sea has cut holes into, so I pushed the cut-outs further, turning them into individual shapes and stacking them — an idea borrowed back from the second concept.",
+        "I also explored the form with more curvature and less rectilinear sharpness, and built a quick blocked model so I could keep rearranging the composition physically rather than on paper."
+      ],
+      "images": [
+        {
+          "src": "air-purifier/development-1.jpg",
+          "alt": "Development sketches exploring cut-outs, negative space and stacked forms"
+        },
+        {
+          "src": "air-purifier/development-2.jpg",
+          "alt": "Sketches rotating stacked shapes and repositioning the cut-outs"
+        },
+        {
+          "src": "air-purifier/form-study.jpg",
+          "alt": "Sketch sheet studying more curved variations of the form",
+          "span": "wide"
+        },
+        {
+          "src": "air-purifier/prototype-block-1.jpg",
+          "alt": "Cardboard block prototype of the stacked form held in a hand"
+        },
+        {
+          "src": "air-purifier/prototype-block-2.jpg",
+          "alt": "Cardboard block prototype standing against a wall"
+        }
+      ]
+    },
+    {
+      "number": "06",
+      "title": "Prototyping the form",
+      "body": [
+        "A clay model let me map the proportions physically and work out how the top opening would connect to the main side opening, which I solved by carving a channel through. It was also the first time I had used modelling clay, and a chance to test different edge finishes — one side curved, the other flattened with a chamfer.",
+        "I then developed four variations in oven-bake clay. Modelling them small showed how each one sat on a surface and felt to pick up. I chose the one that sat flat to the table for the flow of its lines and its mixture of curved and straight edges."
+      ],
+      "images": [
+        {
+          "src": "air-purifier/clay-terracotta-1.jpg",
+          "alt": "Terracotta clay model of the form with a carved channel and open centre"
+        },
+        {
+          "src": "air-purifier/clay-terracotta-2.jpg",
+          "alt": "Refining the clay model, testing a curved edge against a chamfered edge"
+        },
+        {
+          "src": "air-purifier/iteration-sketches.jpg",
+          "alt": "Sketch sheet with four circled variations selected for modelling",
+          "span": "wide"
+        },
+        {
+          "src": "air-purifier/iteration-clay.jpg",
+          "alt": "Oven-bake clay components laid out on a board before firing"
+        },
+        {
+          "src": "air-purifier/final-choice-1.jpg",
+          "alt": "White clay model variation one"
+        },
+        {
+          "src": "air-purifier/final-choice-2.jpg",
+          "alt": "White clay model variation, the chosen form sitting flat to the table",
+          "caption": "The chosen variation — it sat flat and the lines flowed."
+        },
+        {
+          "src": "air-purifier/final-choice-3.jpg",
+          "alt": "White clay model variation on a raised base"
+        }
+      ]
+    },
+    {
+      "number": "07",
+      "title": "Technical drawing",
+      "body": [
+        "I drew the chosen concept in perspective and orthographic, then produced a manufacturing drawing with exact measurements to use as a template for cutting the final model."
+      ],
+      "images": [
+        {
+          "src": "air-purifier/orthographic.jpg",
+          "alt": "Perspective and orthographic drawings of the final concept with measurements",
+          "span": "wide"
+        }
+      ]
+    },
+    {
+      "number": "08",
+      "title": "Building the final model",
+      "body": [
+        "The template was traced onto a foam block, cut to size and sanded. To create the channel between the top opening and the central side opening I marked the holes from templates and carved through the block with a scalpel — difficult, but it gave the result I wanted — then lined it with clay.",
+        "Looking at the model at that point, it felt too plain against the style board, missing the pattern and repeated shapes. So I brought the stained glass back in as vent panels on the inside face: card layered over cardboard, with a slight border of foam either side. I tried panelling the outside too, but it took away from the clean exterior, so it stayed internal."
+      ],
+      "images": [
+        {
+          "src": "air-purifier/build-template.jpg",
+          "alt": "Paper template of the form on a cutting mat"
+        },
+        {
+          "src": "air-purifier/build-foam.jpg",
+          "alt": "Foam block cut to the profile of the design and sanded"
+        },
+        {
+          "src": "air-purifier/build-channel.jpg",
+          "alt": "Carving the internal channel through the foam block with a scalpel",
+          "caption": "Carving the channel that links the top opening to the side."
+        },
+        {
+          "src": "air-purifier/build-panel.jpg",
+          "alt": "Cut card vent panel with an irregular stained-glass pattern"
+        },
+        {
+          "src": "air-purifier/build-vent-detail.jpg",
+          "alt": "Vent panel test fitted into the foam body"
+        }
+      ]
+    },
+    {
+      "number": "09",
+      "title": "Final model",
+      "body": [
+        "The resolved model: a curved body with an open centre, the channel running from the top opening down through the form, and the patterned vent panel visible on the inside face."
+      ],
+      "images": [
+        {
+          "src": "air-purifier/final-model-1.jpg",
+          "alt": "Final model viewed from the front, showing the open centre and vent panel"
+        },
+        {
+          "src": "air-purifier/final-model-2.jpg",
+          "alt": "Final model viewed from above, showing the internal channel and patterned vent"
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "Presentation",
+      "body": [
+        "For the presentation page I worked up rough sketches for proportion and composition first, then used them as guides on a lightbox. I am pleased with the perspective and the way a single red draws attention to the airflow without overpowering the monochrome rendering."
+      ],
+      "images": [
+        {
+          "src": "air-purifier/presentation-page.jpg",
+          "alt": "Final presentation page showing the air purifier rendered in pencil with red airflow graphics",
+          "span": "wide"
+        },
+        {
+          "src": "air-purifier/final-presentation.jpg",
+          "alt": "The full project laid out for presentation with models, sketch sheets and the presentation page",
+          "span": "wide"
+        }
+      ]
+    }
+  ],
+  "reflection": {
+    "title": "Reflection",
+    "body": [
+      "This is my favourite project so far. I generated a lot of initial ideas, and — unlike earlier projects, where I would settle on the first concept that interested me — I explored two concepts properly, chose the one with the most potential and then kept evolving it. My idea changed considerably as a result, which I think led to a more considered and more original design.",
+      "I also made a continuous effort to document the process as I went, something I had often forgotten before. Next time I would add the photos as I take them: sorting and placing so many images at the end took longer than expected."
+    ]
+  }
+}
