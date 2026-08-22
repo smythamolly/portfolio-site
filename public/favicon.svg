@@ -1,11 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="4" fill="#47583f" />
-  <text
-    x="16"
-    y="22"
-    text-anchor="middle"
-    font-family="Georgia, serif"
-    font-size="14"
-    fill="#f3f2ed"
-  >MS</text>
+  <rect width="32" height="32" rx="6" fill="#4c5c47" />
+  <!-- Single arch — the motif carried through the site -->
+  <path d="M9 26V15a7 7 0 0 1 14 0v11h-4V15a3 3 0 0 0-6 0v11Z" fill="#e4e8dd" />
 </svg>

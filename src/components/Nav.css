@@ -14,6 +14,24 @@
   box-shadow: 0 1px 0 var(--line);
 }
 
+.nav__skip {
+  position: absolute;
+  left: 1.5rem;
+  top: 0.6rem;
+  z-index: 3;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  background: var(--sage-700);
+  color: var(--paper);
+  font-size: 0.85rem;
+  transform: translateY(-200%);
+  transition: transform 0.2s var(--ease);
+}
+
+.nav__skip:focus-visible {
+  transform: none;
+}
+
 .nav__inner {
   display: flex;
   align-items: center;
