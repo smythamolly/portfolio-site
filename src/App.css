@@ -1,0 +1,131 @@
+.shell {
+  width: var(--shell);
+  margin-inline: auto;
+}
+
+/* Sections */
+.section {
+  padding: clamp(4rem, 8vw, 6.5rem) 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.section--alt {
+  background: var(--paper-alt);
+}
+
+.section__head {
+  display: grid;
+  grid-template-columns: 10rem minmax(0, 1fr);
+  gap: 1rem 2rem;
+  align-items: baseline;
+  margin-bottom: clamp(2.5rem, 5vw, 3.5rem);
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.section__title {
+  font-size: clamp(1.7rem, 1.4rem + 1.3vw, 2.3rem);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+.section__lead {
+  grid-column: 2;
+  max-width: 58ch;
+  margin-top: 0.9rem;
+  color: var(--ink-soft);
+}
+
+/* Buttons and links */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1.4rem;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  transition: background-color 0.25s var(--ease), color 0.25s var(--ease),
+    border-color 0.25s var(--ease);
+}
+
+.btn--solid {
+  background: var(--sage-700);
+  color: var(--paper);
+}
+
+.btn--solid:hover {
+  background: var(--sage-900);
+}
+
+.btn--quiet {
+  padding-inline: 0;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--line-strong);
+  border-radius: 0;
+}
+
+.btn--quiet:hover {
+  color: var(--ink);
+  border-color: var(--sage-600);
+}
+
+.link-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--sage-700);
+  transition: color 0.25s var(--ease);
+}
+
+.link-arrow svg {
+  width: 1rem;
+  height: 1rem;
+  transition: transform 0.25s var(--ease);
+}
+
+.link-arrow:hover {
+  color: var(--ink);
+}
+
+.link-arrow:hover svg {
+  transform: translateX(3px);
+}
+
+/* Scroll reveal — deliberately understated */
+.reveal {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
+  transition-delay: var(--delay, 0s);
+}
+
+.section.is-visible .reveal {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .section__head {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .section__lead {
+    grid-column: 1;
+  }
+}
