@@ -1,30 +1,49 @@
-# Portfolio
+# Portfolio — Molly Smyth
 
-Personal portfolio site — React + Vite, deployed to GitHub Pages.
+Live at **https://smythamolly.github.io/portfolio-site/**
 
-## Development
+## Editing the content
+
+All text and image captions live in [`src/content/`](src/content). Edit the JSON, save, and the
+site updates — you never need to open a component file.
+
+| File | What it controls |
+| --- | --- |
+| [`site.json`](src/content/site.json) | Name, qualification, hero text, philosophy, strengths, about, contact, nav |
+| [`featured.json`](src/content/featured.json) | The two project cards on the home page |
+| [`air-purifier.json`](src/content/air-purifier.json) | The air purifier project page |
+| [`portfolio.json`](src/content/portfolio.json) | The making and art page |
+
+The About bio is currently placeholder text. Replace `bio` in `site.json` with your own, then
+delete the `bioPlaceholder` line to remove the note shown on the page.
+
+### Adding images
+
+1. Put the file in `public/images/air-purifier/` or `public/images/portfolio/`.
+2. Reference it from the JSON by the path after `images/`, e.g. `"src": "portfolio/new-piece.jpg"`.
+3. Run `npm run images` — this records each image's dimensions in the JSON so pages don't jump
+   about while photos load.
+
+Always write an `alt` description: it is what screen readers announce and what shows if an image
+fails to load.
+
+## Running it locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Editing content
+## Pages
 
-All copy lives in [`src/data/site.js`](src/data/site.js): profile, projects, capabilities, and
-navigation. Changing that file is enough for most updates — no component edits needed.
+- `index.html` — home
+- `portfolio/index.html` — making and art
+- `projects/air-purifier/index.html` — air purifier project
 
-Design tokens (colour, type, spacing) are CSS custom properties at the top of
-[`src/index.css`](src/index.css).
+To add another project page, copy one of these folders, add a matching entry file in
+`src/entries/`, and register it in [`vite.config.js`](vite.config.js).
 
-## Deployment
+## Publishing
 
-Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the site and publishes it
-to GitHub Pages.
-
-One-time setup in the repository: **Settings → Pages → Build and deployment → Source: GitHub
-Actions**.
-
-The site is served from `https://smythamolly.github.io/portfolio-site/`. That subpath is set as
-`base` in [`vite.config.js`](vite.config.js) — if the repository is renamed, or moved to a custom
-domain, update it there.
+Every push to `main` rebuilds and publishes the site automatically. Colours, type and spacing are
+defined once at the top of [`src/index.css`](src/index.css).
