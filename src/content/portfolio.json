@@ -1,0 +1,333 @@
+{
+  "title": "Making and Art",
+  "subtitle": "Selected work",
+  "intro": "Work made at home, in school and in my dad's workshop — turning, carving, graphics, enterprise and drawing. All of the work here is my own.",
+  "pieces": [
+    {
+      "title": "Junk Kouture — Forest of Rose Gold",
+      "discipline": "Wearable construction",
+      "note": "Transition year",
+      "body": [
+        "Celebrating nature while highlighting the amount of waste created by celebrations. The piece repurposed an old wedding dress, crisp packets and party decorations including a rose gold tablecloth and photo backdrop.",
+        "I made roughly ninety roses by cutting petal shapes from crisp packets and hot gluing them together, and spray painted the skirt before attaching them. Tassels came from an old foil tablecloth, cut into strips, woven through pencils and shaped with a heat gun for dimension. Dragon fruit inspired spikes were formed from wire mesh and covered in the tassels. To counter the weight of the wedding dress material I cut out a section at the front and hemmed it, to give the skirt movement."
+      ],
+      "images": [
+        {
+          "src": "portfolio/junk-kouture-model.jpg",
+          "alt": "The finished Junk Kouture dress worn by a model, with a rose gold bodice and pale skirt",
+          "span": "tall",
+          "w": 872,
+          "h": 1358
+        },
+        {
+          "src": "portfolio/junk-kouture-dress.jpg",
+          "alt": "The dress on a stand in the workshop, showing the full silhouette",
+          "w": 900,
+          "h": 1200
+        },
+        {
+          "src": "portfolio/junk-kouture-roses.jpg",
+          "alt": "Close-up of roses made from rose gold crisp packets",
+          "w": 692,
+          "h": 894
+        }
+      ]
+    },
+    {
+      "title": "Trócaire Game Changers",
+      "discipline": "Board game design and graphics",
+      "note": "First place, 2023",
+      "body": [
+        "A competition to design and make a board game about an issue affecting the world today, which my team won out of over two hundred games. Ours focused on human rights — or a blob's rights — with cards showing an image representing a human right that players tried to guess, alongside question cards.",
+        "My role was creating all the graphics: the board game layout and every image for the front and back of the cards."
+      ],
+      "images": [
+        {
+          "src": "portfolio/game-board.jpg",
+          "alt": "Colourful board game layout illustrated with squares and icons",
+          "w": 1000,
+          "h": 1000
+        },
+        {
+          "src": "portfolio/game-printed.jpg",
+          "alt": "The printed board game laid out with cards and pieces",
+          "w": 1000,
+          "h": 750
+        },
+        {
+          "src": "portfolio/game-card.jpg",
+          "alt": "Illustrated blob character card representing a human right",
+          "w": 483,
+          "h": 604
+        }
+      ]
+    },
+    {
+      "title": "Plantable Posts",
+      "discipline": "Mini company",
+      "note": "Second place, Fingal student enterprise awards",
+      "body": [
+        "A transition year mini company set up with a friend, making eco-friendly plantable greeting cards for many occasions that grew into wildflowers — a solution to the waste created by celebration cards. I created all of the card designs, the packaging and the branding, and hand printed over two hundred cards.",
+        "We bought individual stamps and attached them to wooden blocks so I could build different compositions and apply consistent pressure. The paper came unfolded, and getting even folds by hand was impossible at any speed, so I made a folding jig from wooden blocks on a board: slide the card under a ruler, and fold it over for a clean crease every time.",
+        "The company was also a semi-finalist in the Foróige youth enterprise programme and placed first in school mini companies."
+      ],
+      "images": [
+        {
+          "src": "portfolio/cards-butterfly.jpg",
+          "alt": "Hand printed greeting cards with butterfly designs",
+          "w": 1000,
+          "h": 750
+        },
+        {
+          "src": "portfolio/cards-branding.jpg",
+          "alt": "Plantable Posts branding and packaging with planting instructions",
+          "w": 980,
+          "h": 572
+        },
+        {
+          "src": "portfolio/cards-folding-jig.jpg",
+          "alt": "The wooden folding jig made to crease cards evenly and quickly",
+          "caption": "The jig I built to speed up folding.",
+          "w": 912,
+          "h": 1032
+        }
+      ]
+    },
+    {
+      "title": "Pen making",
+      "discipline": "Woodturning",
+      "body": [
+        "Pens made at home in my dad's workshop, about two hours each. I choose hardware to suit the material, cut the blank to size, mark and drill the holes on a drill press, and glue in the brass barrels.",
+        "The blanks are then turned on the lathe — a roughing gouge for coarse cuts from square to a rough cylinder, then finer cuts with a spindle gouge to form the barrel. I sand through progressively finer abrasive pads, polish with a hard wax finish, and fit the metal hardware and mechanism. Two of these are acrylic and one is yew."
+      ],
+      "images": [
+        {
+          "src": "portfolio/pen-lathe.jpg",
+          "alt": "Turning a pen barrel on the lathe with a gouge",
+          "w": 1000,
+          "h": 750
+        },
+        {
+          "src": "portfolio/pen-acrylic.jpg",
+          "alt": "Finished pen turned from red and white marbled acrylic",
+          "w": 1000,
+          "h": 750
+        },
+        {
+          "src": "portfolio/pen-yew.jpg",
+          "alt": "Finished pen turned from yew wood",
+          "w": 1000,
+          "h": 750
+        }
+      ]
+    },
+    {
+      "title": "Shelf Life",
+      "discipline": "Leaving certificate art project",
+      "body": [
+        "Working to the theme of shelf life, I explored the idea of putting your hobbies on a shelf when you don't have time. Drawings of my horses and of myself were combined on an accordion style canvas I made out of an old book from one of my shelves.",
+        "The acrylic painting used the same reference as a tonal pencil drawing I had done at home, because it had worked so well the first time."
+      ],
+      "images": [
+        {
+          "src": "portfolio/shelf-life-1.jpg",
+          "alt": "Accordion canvas made from an old book, painted with a horse study",
+          "w": 1000,
+          "h": 646
+        },
+        {
+          "src": "portfolio/shelf-life-2.jpg",
+          "alt": "The accordion piece opened out, combining drawings across the folds",
+          "w": 1000,
+          "h": 526
+        }
+      ]
+    },
+    {
+      "title": "3D modelling",
+      "discipline": "Fusion 360",
+      "body": [
+        "Over the Christmas holidays I wanted to try digital 3D modelling again, having not done any since junior certificate technology in SketchUp. I used Autodesk Fusion 360 — a stamp handle with a changeable stamp plate made by following a tutorial while learning the software.",
+        "I then modelled a bridle holder for the yard from my own sketch. The idea is to 3D print it and add a magnet to the back, making it movable and useful at competitions."
+      ],
+      "images": [
+        {
+          "src": "portfolio/cad-stamp.jpg",
+          "alt": "3D model of a stamp handle with a changeable plate",
+          "w": 1000,
+          "h": 863
+        },
+        {
+          "src": "portfolio/cad-bridle-holder.jpg",
+          "alt": "3D model of a bridle holder designed from a sketch",
+          "w": 1000,
+          "h": 786
+        }
+      ]
+    },
+    {
+      "title": "Poisonous plants",
+      "discipline": "Alcohol marker and line work",
+      "body": [
+        "The idea came from the book Fourth Wing and the main character's book of poisonous plants. I first used it for a watercolour pencil piece in an art prompt book, but on normal paper I couldn't add as much colour as I wanted, so I developed it further.",
+        "For the second iteration I looked up real poisonous flowers and drew from reference photos, added line work, then alcohol markers for vibrant colour. I enjoyed drawing flowers I wouldn't normally think of."
+      ],
+      "images": [
+        {
+          "src": "portfolio/poisonous-plants.jpg",
+          "alt": "Illustration of poisonous flowers in vivid alcohol marker with line work",
+          "span": "tall",
+          "w": 1000,
+          "h": 650
+        },
+        {
+          "src": "portfolio/poisonous-plants-detail.jpg",
+          "alt": "Detail of the poisonous plants illustration",
+          "w": 1000,
+          "h": 691
+        }
+      ]
+    },
+    {
+      "title": "Create This Book",
+      "discipline": "Art prompt book",
+      "body": [
+        "An art prompt book I fill out in my free time, coming up with a creative response to each prompt. There is a smiley face hidden in the eye spy page."
+      ],
+      "images": [
+        {
+          "src": "portfolio/create-book-eyespy.jpg",
+          "alt": "Densely illustrated eye spy page with a large red bow at its centre",
+          "w": 1000,
+          "h": 664
+        },
+        {
+          "src": "portfolio/create-book-spread.jpg",
+          "alt": "Watercolour spread of hanging jars and a light bulb filled with flowers",
+          "w": 1000,
+          "h": 649
+        }
+      ]
+    },
+    {
+      "title": "Tonal studies",
+      "discipline": "Pencil",
+      "body": [
+        "Two tonal studies of my horses, done at home. I like these particularly because I feel they show some of the horses' personalities — both quite curious and kind."
+      ],
+      "images": [
+        {
+          "src": "portfolio/horse-study-1.jpg",
+          "alt": "Tonal pencil study of a horse's head",
+          "w": 812,
+          "h": 1200
+        },
+        {
+          "src": "portfolio/horse-study-2.jpg",
+          "alt": "Second tonal pencil study of a horse",
+          "w": 1000,
+          "h": 750
+        }
+      ]
+    },
+    {
+      "title": "Watercolour portrait",
+      "discipline": "Watercolour",
+      "body": [
+        "I had originally wanted to paint the iconic billowing dress moment for the movement in the fabric, but found this reference and thought it was much cooler — the pop of red lipstick matched in the background, and the subtle movement in the shoulders. It was my first time painting a person in watercolour, so it is slightly too dark in places."
+      ],
+      "images": [
+        {
+          "src": "portfolio/watercolour-portrait.jpg",
+          "alt": "Watercolour portrait with red lipstick against a red background",
+          "span": "tall",
+          "w": 835,
+          "h": 1200
+        }
+      ]
+    },
+    {
+      "title": "Carving and wood burning",
+      "discipline": "Hand tools",
+      "body": [
+        "A gnome head whittled with a carving knife over the summer, with a magnet on the back to turn him into a fridge magnet, and two spoons carved with my grandad.",
+        "The portrait of my dog was made with a wood burning pen and ink pencils to stain the wood, changing the temperature and the speed I moved the pen to get different tones and line qualities."
+      ],
+      "images": [
+        {
+          "src": "portfolio/carving-gnome.jpg",
+          "alt": "Whittled gnome head carved from wood",
+          "w": 1000,
+          "h": 750
+        },
+        {
+          "src": "portfolio/carving-spoons.jpg",
+          "alt": "Two hand carved wooden spoons",
+          "w": 946,
+          "h": 2048
+        },
+        {
+          "src": "portfolio/wood-burning.jpg",
+          "alt": "Wood burned portrait of a dog stained with ink pencils",
+          "w": 946,
+          "h": 2048
+        }
+      ]
+    },
+    {
+      "title": "Seashell butterflies",
+      "discipline": "Watercolour and marker",
+      "body": [
+        "While painting seashells and taking reference photos of mussel shells, I experimented with compositions and found that arranged a certain way they looked like a butterfly. I developed that idea from the photographs into a watercolour butterfly, and then a marker one."
+      ],
+      "images": [
+        {
+          "src": "portfolio/shell-butterfly.jpg",
+          "alt": "Mussel shells arranged into the shape of a butterfly",
+          "w": 1000,
+          "h": 821
+        },
+        {
+          "src": "portfolio/shell-butterfly-paint.jpg",
+          "alt": "Watercolour butterfly developed from the shell arrangement",
+          "w": 1000,
+          "h": 750
+        }
+      ]
+    },
+    {
+      "title": "Rendering, cakes and upcycling",
+      "discipline": "Studies and side projects",
+      "body": [
+        "Recent attempts at rendering objects: a quick still life observation drawn directly from the object, then rendered with shadows and highlights.",
+        "I have been decorating my own cakes for years because I like creating something unique and personal — a brighter summery theme for my own June birthday, and a more sophisticated design for my mam's fiftieth, with shards forming a mountain range backdrop to reflect her love of hiking. I also upcycle clothes, tie dying an old black t-shirt with bleach and older jumpers in pastel colours, so I get more use out of them."
+      ],
+      "images": [
+        {
+          "src": "portfolio/rendering-study.jpg",
+          "alt": "Rendered drawing of a bell shaped object with shadows and highlights",
+          "w": 846,
+          "h": 1466
+        },
+        {
+          "src": "portfolio/cake-1.jpg",
+          "alt": "Decorated birthday cake with a bright summery theme",
+          "w": 666,
+          "h": 1000
+        },
+        {
+          "src": "portfolio/cake-2.jpg",
+          "alt": "Decorated cake with chocolate shards forming a mountain range",
+          "w": 704,
+          "h": 1000
+        },
+        {
+          "src": "portfolio/upcycling.jpg",
+          "alt": "Black t-shirt upcycled by tie dying with bleach",
+          "w": 946,
+          "h": 2048
+        }
+      ]
+    }
+  ]
+}

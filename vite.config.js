@@ -9,6 +9,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         home: resolve(import.meta.dirname, 'index.html'),
+        portfolio: resolve(import.meta.dirname, 'portfolio/index.html'),
         airPurifier: resolve(import.meta.dirname, 'projects/air-purifier/index.html'),
       },
     },
