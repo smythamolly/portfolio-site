@@ -20,8 +20,8 @@
   "hero": {
     "image": "air-purifier/final-hero.jpg",
     "alt": "Final foam model of the air purifier standing on a pale surface, a curved body with an open centre",
-    "w": 1000,
-    "h": 750
+    "w": 750,
+    "h": 1000
   },
   "sections": [
     {
@@ -79,8 +79,8 @@
           "src": "air-purifier/clay-panel.jpg",
           "alt": "Plasticine panel carved with an inlaid pattern of irregular shapes",
           "caption": "An inlaid panel, the first version of what became the vent.",
-          "w": 993,
-          "h": 764
+          "w": 764,
+          "h": 993
         },
         {
           "src": "air-purifier/clay-curve.jpg",
@@ -126,8 +126,8 @@
         {
           "src": "air-purifier/concept-3-model.jpg",
           "alt": "White card model of concept three with cut-out arched panels",
-          "w": 585,
-          "h": 285
+          "w": 285,
+          "h": 585
         }
       ]
     },
@@ -161,14 +161,14 @@
         {
           "src": "air-purifier/prototype-block-1.jpg",
           "alt": "Cardboard block prototype of the stacked form held in a hand",
-          "w": 595,
-          "h": 450
+          "w": 450,
+          "h": 595
         },
         {
           "src": "air-purifier/prototype-block-2.jpg",
           "alt": "Cardboard block prototype standing against a wall",
-          "w": 599,
-          "h": 445
+          "w": 445,
+          "h": 599
         }
       ]
     },
@@ -183,14 +183,14 @@
         {
           "src": "air-purifier/clay-terracotta-1.jpg",
           "alt": "Terracotta clay model of the form with a carved channel and open centre",
-          "w": 729,
-          "h": 485
+          "w": 485,
+          "h": 729
         },
         {
           "src": "air-purifier/clay-terracotta-2.jpg",
           "alt": "Refining the clay model, testing a curved edge against a chamfered edge",
-          "w": 659,
-          "h": 520
+          "w": 520,
+          "h": 659
         },
         {
           "src": "air-purifier/iteration-sketches.jpg",
@@ -253,14 +253,14 @@
         {
           "src": "air-purifier/build-template.jpg",
           "alt": "Paper template of the form on a cutting mat",
-          "w": 727,
-          "h": 537
+          "w": 537,
+          "h": 727
         },
         {
           "src": "air-purifier/build-foam.jpg",
           "alt": "Foam block cut to the profile of the design and sanded",
-          "w": 737,
-          "h": 529
+          "w": 529,
+          "h": 737
         },
         {
           "src": "air-purifier/build-channel.jpg",
@@ -272,8 +272,8 @@
         {
           "src": "air-purifier/build-panel.jpg",
           "alt": "Cut card vent panel with an irregular stained-glass pattern",
-          "w": 799,
-          "h": 597
+          "w": 597,
+          "h": 799
         },
         {
           "src": "air-purifier/build-vent-detail.jpg",
@@ -292,15 +292,22 @@
       "images": [
         {
           "src": "air-purifier/final-model-1.jpg",
-          "alt": "Final model viewed from the front, showing the open centre and vent panel",
-          "w": 937,
-          "h": 683
+          "alt": "Final model standing upright, the curved body enclosing an open centre with the patterned vent panel inside",
+          "w": 729,
+          "h": 1000
         },
         {
           "src": "air-purifier/final-model-2.jpg",
-          "alt": "Final model viewed from above, showing the internal channel and patterned vent",
-          "w": 893,
-          "h": 631
+          "alt": "Final model face on, looking through the opening at the stained glass vent panel",
+          "w": 672,
+          "h": 1000
+        },
+        {
+          "src": "air-purifier/final-model-3.jpg",
+          "alt": "Final model laid flat and seen from above, showing the channel running through the form",
+          "span": "wide",
+          "w": 1000,
+          "h": 706
         }
       ]
     },
