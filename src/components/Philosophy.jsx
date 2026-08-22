@@ -4,7 +4,12 @@ import './Philosophy.css'
 
 export default function Philosophy() {
   return (
-    <Section id="philosophy" eyebrow="Philosophy" title="How I think about design" className="section--alt">
+    <Section
+      id="philosophy"
+      eyebrow={philosophy.eyebrow}
+      title={philosophy.title}
+      className="section--alt"
+    >
       <div className="philosophy">
         <div className="philosophy__statement reveal">
           <p className="philosophy__lead">{philosophy.lead}</p>

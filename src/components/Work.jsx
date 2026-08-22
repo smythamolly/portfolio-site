@@ -1,19 +1,14 @@
-import { featuredProjects, img } from '../data/site'
+import { featuredProjects, href, img, work } from '../data/site'
 import Section from './Section'
 import './Work.css'
 
 export default function Work() {
   return (
-    <Section
-      id="work"
-      eyebrow="Work"
-      title="Two places to start"
-      lead="A full design project from brief to final model, and a wider body of making and art."
-    >
+    <Section id="work" eyebrow={work.eyebrow} title={work.title} lead={work.lead}>
       <ul className="work">
         {featuredProjects.map((project, i) => (
           <li key={project.title} className="work__item reveal" style={{ '--delay': `${0.06 * i}s` }}>
-            <a className="work__card" href={project.href}>
+            <a className="work__card" href={href(project)}>
               <figure className="work__figure">
                 <img src={img(project.image)} alt={project.alt} loading="lazy" />
               </figure>

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { navLinks, profile, routes } from '../data/site'
+import { href, navLinks, profile, routes } from '../data/site'
 import './Nav.css'
 
 export default function Nav() {
@@ -30,7 +30,7 @@ export default function Nav() {
 
         <nav className="nav__links" aria-label="Primary">
           {navLinks.map((link) => (
-            <a key={link.href} href={link.href} onClick={() => setOpen(false)}>
+            <a key={link.label} href={href(link)} onClick={() => setOpen(false)}>
               {link.label}
             </a>
           ))}
