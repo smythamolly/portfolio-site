@@ -11,7 +11,7 @@ export default function AirPurifier() {
   return (
     <>
       <Nav />
-      <main>
+      <main id="main">
         <ProjectHeader project={project} />
 
         {project.sections.map((step) => (

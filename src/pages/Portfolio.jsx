@@ -11,7 +11,7 @@ export default function Portfolio() {
   return (
     <>
       <Nav />
-      <main>
+      <main id="main">
         <header className="portfolio-header">
           <div className="shell">
             <a className="portfolio-header__back" href={routes.home}>

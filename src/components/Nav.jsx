@@ -22,6 +22,10 @@ export default function Nav() {
 
   return (
     <header className={`nav ${scrolled ? 'is-scrolled' : ''} ${open ? 'is-open' : ''}`}>
+      <a className="nav__skip" href="#main">
+        Skip to content
+      </a>
+
       <div className="shell nav__inner">
         <a className="nav__brand" href={routes.home} onClick={() => setOpen(false)}>
           <span className="nav__name">{profile.name}</span>
