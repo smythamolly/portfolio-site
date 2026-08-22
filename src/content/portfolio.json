@@ -263,14 +263,14 @@
         {
           "src": "portfolio/carving-spoons.jpg",
           "alt": "Two hand carved wooden spoons",
-          "w": 946,
-          "h": 2048
+          "w": 763,
+          "h": 1000
         },
         {
           "src": "portfolio/wood-burning.jpg",
           "alt": "Wood burned portrait of a dog stained with ink pencils",
-          "w": 946,
-          "h": 2048
+          "w": 753,
+          "h": 1000
         }
       ]
     },
@@ -324,8 +324,8 @@
         {
           "src": "portfolio/upcycling.jpg",
           "alt": "Black t-shirt upcycled by tie dying with bleach",
-          "w": 946,
-          "h": 2048
+          "w": 753,
+          "h": 1000
         }
       ]
     }
