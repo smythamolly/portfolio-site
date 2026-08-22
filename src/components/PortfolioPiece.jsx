@@ -3,7 +3,7 @@ import { useReveal } from '../hooks/useReveal'
 import './PortfolioPiece.css'
 
 export default function PortfolioPiece({ piece }) {
-  const [ref, visible] = useReveal({ threshold: 0.06 })
+  const [ref, visible] = useReveal()
 
   return (
     <article className={`piece ${visible ? 'is-visible' : ''}`} ref={ref}>

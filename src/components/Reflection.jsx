@@ -2,7 +2,7 @@ import { useReveal } from '../hooks/useReveal'
 import './Reflection.css'
 
 export default function Reflection({ reflection }) {
-  const [ref, visible] = useReveal({ threshold: 0.1 })
+  const [ref, visible] = useReveal()
 
   return (
     <section className={`reflection ${visible ? 'is-visible' : ''}`} ref={ref}>
