@@ -28,7 +28,13 @@ export default function ProcessStep({ step }) {
                 style={{ '--delay': `${0.04 * i}s` }}
               >
                 <figure>
-                  <img src={img(image.src)} alt={image.alt} loading="lazy" />
+                  <img
+                    src={img(image.src)}
+                    alt={image.alt}
+                    width={image.w}
+                    height={image.h}
+                    loading="lazy"
+                  />
                   {image.caption && <figcaption>{image.caption}</figcaption>}
                 </figure>
               </li>

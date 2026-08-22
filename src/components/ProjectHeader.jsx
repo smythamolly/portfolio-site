@@ -32,7 +32,12 @@ export default function ProjectHeader({ project }) {
 
       <div className="shell">
         <figure className="project-header__hero">
-          <img src={img(project.hero.image)} alt={project.hero.alt} />
+          <img
+            src={img(project.hero.image)}
+            alt={project.hero.alt}
+            width={project.hero.w}
+            height={project.hero.h}
+          />
         </figure>
       </div>
     </header>

@@ -4,13 +4,24 @@
   "year": "2026",
   "intro": "An air purifier designed for form first: a curved body with an open centre, a channel carried from the top opening down to the side, and a vent panel patterned after stained glass. Developed from a style board through sketching, clay and foam to a resolved final model.",
   "meta": [
-    { "label": "Project", "value": "Aesthetic design, semester 2" },
-    { "label": "Schedule", "value": "Weeks 8 to 12, planned from a project timeline" },
-    { "label": "Methods", "value": "Ideation sketching, clay and foam modelling, technical drawing, rendering" }
+    {
+      "label": "Project",
+      "value": "Aesthetic design, semester 2"
+    },
+    {
+      "label": "Schedule",
+      "value": "Weeks 8 to 12, planned from a project timeline"
+    },
+    {
+      "label": "Methods",
+      "value": "Ideation sketching, clay and foam modelling, technical drawing, rendering"
+    }
   ],
   "hero": {
     "image": "air-purifier/final-hero.jpg",
-    "alt": "Final foam model of the air purifier standing on a pale surface, a curved body with an open centre"
+    "alt": "Final foam model of the air purifier standing on a pale surface, a curved body with an open centre",
+    "w": 1000,
+    "h": 750
   },
   "sections": [
     {
@@ -24,7 +35,9 @@
           "src": "air-purifier/styleboard.jpg",
           "alt": "Style board of stained glass windows, arches, curved seating and timber textures",
           "caption": "The board I worked from throughout — arches, grids, negative space.",
-          "span": "wide"
+          "span": "wide",
+          "w": 1000,
+          "h": 662
         }
       ]
     },
@@ -37,15 +50,21 @@
       "images": [
         {
           "src": "air-purifier/ideation-1.jpg",
-          "alt": "Sheet of pencil ideation sketches exploring arched and panelled forms"
+          "alt": "Sheet of pencil ideation sketches exploring arched and panelled forms",
+          "w": 764,
+          "h": 541
         },
         {
           "src": "air-purifier/ideation-2.jpg",
-          "alt": "Further ideation sketches of cylindrical and stacked forms"
+          "alt": "Further ideation sketches of cylindrical and stacked forms",
+          "w": 720,
+          "h": 535
         },
         {
           "src": "air-purifier/ideation-3.jpg",
-          "alt": "Ideation sketches of conical, triangular and arched product forms"
+          "alt": "Ideation sketches of conical, triangular and arched product forms",
+          "w": 781,
+          "h": 574
         }
       ]
     },
@@ -59,11 +78,15 @@
         {
           "src": "air-purifier/clay-panel.jpg",
           "alt": "Plasticine panel carved with an inlaid pattern of irregular shapes",
-          "caption": "An inlaid panel, the first version of what became the vent."
+          "caption": "An inlaid panel, the first version of what became the vent.",
+          "w": 993,
+          "h": 764
         },
         {
           "src": "air-purifier/clay-curve.jpg",
-          "alt": "Small clay model of interlocking curved forms"
+          "alt": "Small clay model of interlocking curved forms",
+          "w": 685,
+          "h": 508
         }
       ]
     },
@@ -77,24 +100,34 @@
       "images": [
         {
           "src": "air-purifier/concept-1.jpg",
-          "alt": "Presentation drawing of concept one, a stacked cone form with front, side and back views"
+          "alt": "Presentation drawing of concept one, a stacked cone form with front, side and back views",
+          "w": 1000,
+          "h": 735
         },
         {
           "src": "air-purifier/concept-2.jpg",
-          "alt": "Presentation drawing of concept two, interlocking curved forms with top, side and bottom views"
+          "alt": "Presentation drawing of concept two, interlocking curved forms with top, side and bottom views",
+          "w": 1000,
+          "h": 716
         },
         {
           "src": "air-purifier/concept-2-model.jpg",
           "alt": "Cardboard model of concept two showing interlocking leaf-shaped curves",
-          "caption": "Concept two, built as separate components so it could be rearranged."
+          "caption": "Concept two, built as separate components so it could be rearranged.",
+          "w": 937,
+          "h": 699
         },
         {
           "src": "air-purifier/concept-3.jpg",
-          "alt": "Presentation drawing of concept three, an arched body with cut-out panels"
+          "alt": "Presentation drawing of concept three, an arched body with cut-out panels",
+          "w": 1000,
+          "h": 715
         },
         {
           "src": "air-purifier/concept-3-model.jpg",
-          "alt": "White card model of concept three with cut-out arched panels"
+          "alt": "White card model of concept three with cut-out arched panels",
+          "w": 585,
+          "h": 285
         }
       ]
     },
@@ -108,24 +141,34 @@
       "images": [
         {
           "src": "air-purifier/development-1.jpg",
-          "alt": "Development sketches exploring cut-outs, negative space and stacked forms"
+          "alt": "Development sketches exploring cut-outs, negative space and stacked forms",
+          "w": 1000,
+          "h": 716
         },
         {
           "src": "air-purifier/development-2.jpg",
-          "alt": "Sketches rotating stacked shapes and repositioning the cut-outs"
+          "alt": "Sketches rotating stacked shapes and repositioning the cut-outs",
+          "w": 1000,
+          "h": 747
         },
         {
           "src": "air-purifier/form-study.jpg",
           "alt": "Sketch sheet studying more curved variations of the form",
-          "span": "wide"
+          "span": "wide",
+          "w": 1000,
+          "h": 603
         },
         {
           "src": "air-purifier/prototype-block-1.jpg",
-          "alt": "Cardboard block prototype of the stacked form held in a hand"
+          "alt": "Cardboard block prototype of the stacked form held in a hand",
+          "w": 595,
+          "h": 450
         },
         {
           "src": "air-purifier/prototype-block-2.jpg",
-          "alt": "Cardboard block prototype standing against a wall"
+          "alt": "Cardboard block prototype standing against a wall",
+          "w": 599,
+          "h": 445
         }
       ]
     },
@@ -139,33 +182,47 @@
       "images": [
         {
           "src": "air-purifier/clay-terracotta-1.jpg",
-          "alt": "Terracotta clay model of the form with a carved channel and open centre"
+          "alt": "Terracotta clay model of the form with a carved channel and open centre",
+          "w": 729,
+          "h": 485
         },
         {
           "src": "air-purifier/clay-terracotta-2.jpg",
-          "alt": "Refining the clay model, testing a curved edge against a chamfered edge"
+          "alt": "Refining the clay model, testing a curved edge against a chamfered edge",
+          "w": 659,
+          "h": 520
         },
         {
           "src": "air-purifier/iteration-sketches.jpg",
           "alt": "Sketch sheet with four circled variations selected for modelling",
-          "span": "wide"
+          "span": "wide",
+          "w": 1000,
+          "h": 729
         },
         {
           "src": "air-purifier/iteration-clay.jpg",
-          "alt": "Oven-bake clay components laid out on a board before firing"
+          "alt": "Oven-bake clay components laid out on a board before firing",
+          "w": 779,
+          "h": 443
         },
         {
           "src": "air-purifier/final-choice-1.jpg",
-          "alt": "White clay model variation one"
+          "alt": "White clay model variation one",
+          "w": 470,
+          "h": 735
         },
         {
           "src": "air-purifier/final-choice-2.jpg",
           "alt": "White clay model variation, the chosen form sitting flat to the table",
-          "caption": "The chosen variation — it sat flat and the lines flowed."
+          "caption": "The chosen variation — it sat flat and the lines flowed.",
+          "w": 560,
+          "h": 731
         },
         {
           "src": "air-purifier/final-choice-3.jpg",
-          "alt": "White clay model variation on a raised base"
+          "alt": "White clay model variation on a raised base",
+          "w": 562,
+          "h": 733
         }
       ]
     },
@@ -179,7 +236,9 @@
         {
           "src": "air-purifier/orthographic.jpg",
           "alt": "Perspective and orthographic drawings of the final concept with measurements",
-          "span": "wide"
+          "span": "wide",
+          "w": 1000,
+          "h": 711
         }
       ]
     },
@@ -193,24 +252,34 @@
       "images": [
         {
           "src": "air-purifier/build-template.jpg",
-          "alt": "Paper template of the form on a cutting mat"
+          "alt": "Paper template of the form on a cutting mat",
+          "w": 727,
+          "h": 537
         },
         {
           "src": "air-purifier/build-foam.jpg",
-          "alt": "Foam block cut to the profile of the design and sanded"
+          "alt": "Foam block cut to the profile of the design and sanded",
+          "w": 737,
+          "h": 529
         },
         {
           "src": "air-purifier/build-channel.jpg",
           "alt": "Carving the internal channel through the foam block with a scalpel",
-          "caption": "Carving the channel that links the top opening to the side."
+          "caption": "Carving the channel that links the top opening to the side.",
+          "w": 1000,
+          "h": 743
         },
         {
           "src": "air-purifier/build-panel.jpg",
-          "alt": "Cut card vent panel with an irregular stained-glass pattern"
+          "alt": "Cut card vent panel with an irregular stained-glass pattern",
+          "w": 799,
+          "h": 597
         },
         {
           "src": "air-purifier/build-vent-detail.jpg",
-          "alt": "Vent panel test fitted into the foam body"
+          "alt": "Vent panel test fitted into the foam body",
+          "w": 733,
+          "h": 554
         }
       ]
     },
@@ -223,11 +292,15 @@
       "images": [
         {
           "src": "air-purifier/final-model-1.jpg",
-          "alt": "Final model viewed from the front, showing the open centre and vent panel"
+          "alt": "Final model viewed from the front, showing the open centre and vent panel",
+          "w": 937,
+          "h": 683
         },
         {
           "src": "air-purifier/final-model-2.jpg",
-          "alt": "Final model viewed from above, showing the internal channel and patterned vent"
+          "alt": "Final model viewed from above, showing the internal channel and patterned vent",
+          "w": 893,
+          "h": 631
         }
       ]
     },
@@ -241,12 +314,16 @@
         {
           "src": "air-purifier/presentation-page.jpg",
           "alt": "Final presentation page showing the air purifier rendered in pencil with red airflow graphics",
-          "span": "wide"
+          "span": "wide",
+          "w": 1000,
+          "h": 666
         },
         {
           "src": "air-purifier/final-presentation.jpg",
           "alt": "The full project laid out for presentation with models, sketch sheets and the presentation page",
-          "span": "wide"
+          "span": "wide",
+          "w": 1000,
+          "h": 744
         }
       ]
     }
