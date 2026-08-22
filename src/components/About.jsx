@@ -7,6 +7,13 @@ export default function About() {
     <Section id="about" eyebrow={about.eyebrow} title={about.title}>
       <div className="about">
         <div className="about__body reveal">
+          {profile.bioPlaceholder && (
+            <p className="about__placeholder">
+              Placeholder text — replace <code>bio</code> in <code>src/content/site.json</code>,
+              then delete <code>bioPlaceholder</code> to remove this note.
+            </p>
+          )}
+
           {profile.bio.map((paragraph) => (
             <p key={paragraph.slice(0, 24)}>{paragraph}</p>
           ))}

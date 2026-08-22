@@ -106,7 +106,7 @@
   transition-delay: var(--delay, 0s);
 }
 
-.section.is-visible .reveal {
+.is-visible .reveal {
   opacity: 1;
   transform: none;
 }

@@ -12,6 +12,19 @@
   color: var(--ink-soft);
 }
 
+.about__placeholder {
+  padding: 0.7rem 0.9rem;
+  border: 1px dashed var(--line-strong);
+  border-radius: 4px;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.about__placeholder code {
+  font-size: 0.95em;
+  color: var(--ink-soft);
+}
+
 .about__body .link-arrow {
   justify-self: start;
   margin-top: 0.4rem;

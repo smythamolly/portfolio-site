@@ -10,7 +10,13 @@ export default function Work() {
           <li key={project.title} className="work__item reveal" style={{ '--delay': `${0.06 * i}s` }}>
             <a className="work__card" href={href(project)}>
               <figure className="work__figure">
-                <img src={img(project.image)} alt={project.alt} loading="lazy" />
+                <img
+                  src={img(project.image)}
+                  alt={project.alt}
+                  width={project.w}
+                  height={project.h}
+                  loading="lazy"
+                />
               </figure>
 
               <div className="work__body">

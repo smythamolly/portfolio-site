@@ -3,20 +3,33 @@
     "title": "Air Purifier",
     "subtitle": "Aesthetic design project",
     "year": "2026",
-    "summary": "A form-led air purifier developed from a style board of arches, stained glass and negative space — through ideation, clay and foam prototypes to a resolved final model.",
-    "tags": ["Ideation", "Prototyping", "Foam modelling", "Rendering"],
+    "summary": "A form-led air purifier developed from a style board of stained glass, repeated curves and negative space — through ideation, clay and foam prototypes to a resolved final model.",
+    "tags": [
+      "Ideation",
+      "Prototyping",
+      "Foam modelling",
+      "Rendering"
+    ],
     "to": "airPurifier",
     "image": "air-purifier/final-hero.jpg",
-    "alt": "Final foam model of the air purifier, a curved form with an open centre and vent panel"
+    "alt": "Final foam model of the air purifier, a curved form with an open centre and vent panel",
+    "w": 1000,
+    "h": 750
   },
   {
     "title": "Making and Art",
     "subtitle": "Selected work",
-    "year": "2022 — 2025",
-    "summary": "Pen turning, an award-winning board game, a plantable greeting card company, carving, watercolour and a Junk Kouture dress built from a wedding dress and crisp packets.",
-    "tags": ["Craft", "Graphics", "Drawing", "Enterprise"],
+    "summary": "Pen turning, a first-place board game design, a plantable greeting card company, carving, watercolour, and a Junk Kouture dress made from an old wedding dress and crisp packets.",
+    "tags": [
+      "Craft",
+      "Graphics",
+      "Drawing",
+      "Enterprise"
+    ],
     "to": "portfolio",
     "image": "portfolio/junk-kouture-dress.jpg",
-    "alt": "Rose gold Junk Kouture dress made from repurposed party decorations"
+    "alt": "Rose gold Junk Kouture dress made from repurposed party decorations",
+    "w": 900,
+    "h": 1200
   }
 ]

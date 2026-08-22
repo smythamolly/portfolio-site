@@ -10,26 +10,18 @@
   align-items: end;
 }
 
-.hero__status {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  font-size: 0.8rem;
-  letter-spacing: 0.04em;
+.hero__qualification {
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
   color: var(--muted);
-}
-
-.hero__dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--sage-600);
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--sage-400);
 }
 
 .hero__title {
-  max-width: 18ch;
-  margin-top: 1.4rem;
-  font-size: clamp(2.15rem, 1.35rem + 3.5vw, 4rem);
+  max-width: 21ch;
+  margin-top: 1.6rem;
+  font-size: clamp(1.95rem, 1.25rem + 3.1vw, 3.5rem);
   font-weight: 500;
   letter-spacing: -0.032em;
   line-height: 1.06;

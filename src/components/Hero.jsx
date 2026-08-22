@@ -7,10 +7,7 @@ export default function Hero() {
     <section className="hero" id="top">
       <div className="shell hero__inner">
         <div className="hero__copy">
-          <p className="hero__status">
-            <span className="hero__dot" aria-hidden="true" />
-            {profile.availability}
-          </p>
+          <p className="hero__qualification">{profile.qualification}</p>
 
           <h1 className="hero__title">{profile.intro}</h1>
           <p className="hero__standfirst">{profile.standfirst}</p>
