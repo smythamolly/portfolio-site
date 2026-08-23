@@ -5,11 +5,11 @@ export default function ProjectHeader({ project }) {
   return (
     <header className="project-header">
       <div className="shell">
-        <a className="project-header__back" href={routes.home}>
+        <a className="project-header__back" href={routes.projectsSection}>
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true">
             <path d="M16 10H4M9 5l-5 5 5 5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
-          All work
+          All projects
         </a>
 
         <div className="project-header__meta">

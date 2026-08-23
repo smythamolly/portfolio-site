@@ -14,11 +14,11 @@ export default function Portfolio() {
       <main id="main">
         <header className="portfolio-header">
           <div className="shell">
-            <a className="portfolio-header__back" href={routes.home}>
+            <a className="portfolio-header__back" href={routes.projectsSection}>
               <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true">
                 <path d="M16 10H4M9 5l-5 5 5 5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
-              All work
+              All projects
             </a>
 
             <p className="portfolio-header__subtitle">{content.subtitle}</p>

@@ -1,0 +1,146 @@
+/*
+ * Three folders sit in a splayed stack. Hovering (or tabbing into) the group
+ * releases them into a linear row. The row is the natural flex layout, so the
+ * resting state is a transform away from it and hover simply removes it.
+ */
+.folders {
+  display: flex;
+  justify-content: center;
+  gap: clamp(1rem, 3vw, 2.5rem);
+  padding: clamp(1rem, 3vw, 2rem) 0;
+}
+
+.folders__item {
+  --splay: 64%;
+  --lift: 0px;
+  --tilt: 0deg;
+  flex: 0 1 clamp(160px, 24vw, 300px);
+  transform: translateX(var(--splay)) translateY(var(--lift)) rotate(var(--tilt));
+  transition: transform 0.55s var(--ease);
+}
+
+.folders__item:nth-child(1) {
+  --tilt: -9deg;
+  z-index: 1;
+}
+
+.folders__item:nth-child(2) {
+  --splay: 0%;
+  --lift: -10px;
+  z-index: 3;
+}
+
+.folders__item:nth-child(3) {
+  --splay: -64%;
+  --tilt: 9deg;
+  z-index: 2;
+}
+
+.folders:hover .folders__item,
+.folders:focus-within .folders__item {
+  --splay: 0%;
+  --lift: 0px;
+  --tilt: 0deg;
+}
+
+/* Folder */
+.folder {
+  display: grid;
+  justify-items: center;
+  gap: 0.7rem;
+}
+
+.folder__icon {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  filter: drop-shadow(0 8px 16px rgb(47 55 45 / 0.14));
+  transition: transform 0.3s var(--ease);
+}
+
+.folder:hover .folder__icon {
+  transform: translateY(-6px);
+}
+
+.folder__back {
+  fill: var(--tint-dark);
+}
+
+.folder__front {
+  fill: var(--tint);
+}
+
+.folder__sheet {
+  fill: var(--paper);
+}
+
+.folders__item[data-tint='sage'] {
+  --tint: #8ba081;
+  --tint-dark: #5d7054;
+}
+
+.folders__item[data-tint='timber'] {
+  --tint: #c9a172;
+  --tint-dark: #a17748;
+}
+
+.folders__item[data-tint='clay'] {
+  --tint: #c98f76;
+  --tint-dark: #a3654c;
+}
+
+.folder__label {
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  white-space: nowrap;
+  /* Hidden while stacked so the labels don't overlap; still read by screen readers. */
+  opacity: 0;
+  transition: opacity 0.4s var(--ease) 0.1s;
+}
+
+.folders:hover .folder__label,
+.folders:focus-within .folder__label {
+  opacity: 1;
+}
+
+/*
+ * Touch devices get no hover, so show the row outright. The :nth-child suffix
+ * matches the specificity of the per-folder rules above — a plain .folders__item
+ * selector loses to them and the stack stays splayed.
+ */
+@media (hover: none) {
+  .folders__item:nth-child(n) {
+    --splay: 0%;
+    --lift: 0px;
+    --tilt: 0deg;
+  }
+
+  .folder__label {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .folders__item:nth-child(n) {
+    --splay: 0%;
+    --lift: 0px;
+    --tilt: 0deg;
+  }
+
+  .folder__label {
+    opacity: 1;
+  }
+}
+
+/* Narrow screens: let the labels wrap rather than collide. */
+@media (max-width: 560px) {
+  .folders {
+    gap: 0.6rem;
+  }
+
+  .folder__label {
+    font-size: 0.78rem;
+    text-align: center;
+    white-space: normal;
+  }
+}
