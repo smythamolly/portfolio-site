@@ -6,7 +6,6 @@ export default function Contact() {
   return (
     <Section
       id="contact"
-      eyebrow={contact.eyebrow}
       title={contact.title}
       className="section--alt"
     >

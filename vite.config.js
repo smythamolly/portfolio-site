@@ -2,15 +2,20 @@ import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+const page = (path) => resolve(import.meta.dirname, path)
+
 export default defineConfig({
   base: '/portfolio-site/',
   plugins: [react()],
   build: {
     rollupOptions: {
       input: {
-        home: resolve(import.meta.dirname, 'index.html'),
-        portfolio: resolve(import.meta.dirname, 'portfolio/index.html'),
-        airPurifier: resolve(import.meta.dirname, 'projects/air-purifier/index.html'),
+        home: page('index.html'),
+        portfolio: page('portfolio/index.html'),
+        airPurifier: page('projects/air-purifier/index.html'),
+        projectOne: page('projects/project-one/index.html'),
+        projectTwo: page('projects/project-two/index.html'),
+        projectThree: page('projects/project-three/index.html'),
       },
     },
   },

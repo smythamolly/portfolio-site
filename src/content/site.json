@@ -2,9 +2,7 @@
   "profile": {
     "name": "Molly Smyth",
     "role": "Product Design Student",
-    "qualification": "BSc Product Design, University of Limerick — expected 2029",
-    "intro": "I love art. I love creating. But more than anything, I love figuring out why something works — or why it doesn't.",
-    "standfirst": "Product design student at the University of Limerick, working from ideation sketches through clay, foam and workshop tools to a resolved model.",
+    "tagline": "I love art. I love creating. But more than anything, I love figuring out why something works — or why it doesn't.",
     "email": "smyth.a.molly@gmail.com",
     "bioPlaceholder": true,
     "bio": [
@@ -12,16 +10,28 @@
       "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
     ],
-    "details": [
-      { "label": "Studying", "value": "BSc Product Design, University of Limerick" },
-      { "label": "Expected graduation", "value": "2029" },
-      { "label": "Based in", "value": "Ireland" }
-    ],
-    "socials": [{ "label": "GitHub", "href": "https://github.com/smythamolly" }]
+    "socials": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/smythamolly"
+      }
+    ]
   },
-
+  "education": {
+    "title": "Education",
+    "entries": [
+      {
+        "award": "BSc Product Design",
+        "institution": "University of Limerick",
+        "dates": "Expected 2029"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "lead": "Open a folder to see the project."
+  },
   "philosophy": {
-    "eyebrow": "Philosophy",
     "title": "How I think about design",
     "lead": "I want to create products that are solutions for problems worth solving.",
     "body": [
@@ -30,7 +40,6 @@
     ],
     "attribution": "From my design manifesto, April 2026"
   },
-
   "strengths": [
     {
       "title": "Making and modelling",
@@ -49,28 +58,30 @@
       "body": "I'm curious about how things work and why the designer made the choices they did, and empathic enough to want to understand the user's emotions, needs and problems."
     }
   ],
-
-  "about": {
-    "eyebrow": "About",
-    "title": "A bit about me"
-  },
-
   "contact": {
-    "eyebrow": "Contact",
     "title": "Get in touch",
     "lead": "Happy to talk about design work, projects or making. Email is the quickest way to reach me."
   },
-
-  "work": {
-    "eyebrow": "Work",
-    "title": "Two places to start",
-    "lead": "A full design project from style board to final model, and a wider body of making and art."
-  },
-
   "nav": [
-    { "label": "Work", "to": "home", "hash": "work" },
-    { "label": "Philosophy", "to": "home", "hash": "philosophy" },
-    { "label": "About", "to": "home", "hash": "about" },
-    { "label": "Contact", "to": "home", "hash": "contact" }
+    {
+      "label": "Projects",
+      "to": "home",
+      "hash": "projects"
+    },
+    {
+      "label": "Education",
+      "to": "home",
+      "hash": "education"
+    },
+    {
+      "label": "Philosophy",
+      "to": "home",
+      "hash": "philosophy"
+    },
+    {
+      "label": "Contact",
+      "to": "home",
+      "hash": "contact"
+    }
   ]
 }

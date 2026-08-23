@@ -1,11 +1,9 @@
 .philosophy {
   display: grid;
-  grid-template-columns: var(--gutter) minmax(0, 1fr);
   gap: 2rem;
 }
 
 .philosophy__statement {
-  grid-column: 2;
   display: grid;
   gap: 1.15rem;
   max-width: 64ch;
@@ -29,11 +27,9 @@
 }
 
 .philosophy__strengths {
-  grid-column: 2;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
   gap: 1.6rem 2rem;
-  margin-top: 1.2rem;
   padding-top: 2rem;
   border-top: 1px solid var(--line-strong);
 }
@@ -47,15 +43,4 @@
   margin-top: 0.5rem;
   font-size: 0.92rem;
   color: var(--ink-soft);
-}
-
-@media (max-width: 820px) {
-  .philosophy {
-    grid-template-columns: 1fr;
-  }
-
-  .philosophy__statement,
-  .philosophy__strengths {
-    grid-column: 1;
-  }
 }

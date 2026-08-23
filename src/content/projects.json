@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Project One",
+    "to": "projectOne",
+    "tint": "sage"
+  },
+  {
+    "label": "Project Two",
+    "to": "projectTwo",
+    "tint": "timber"
+  },
+  {
+    "label": "Project Three",
+    "to": "projectThree",
+    "tint": "clay"
+  }
+]

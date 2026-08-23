@@ -1,21 +1,24 @@
-import About from './components/About'
 import Contact from './components/Contact'
+import Education from './components/Education'
+import Folders from './components/Folders'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Nav from './components/Nav'
 import Philosophy from './components/Philosophy'
-import Work from './components/Work'
+import { useHashScroll } from './hooks/useHashScroll'
 import './App.css'
 
 export default function App() {
+  useHashScroll()
+
   return (
     <>
       <Nav />
       <main id="main">
         <Hero />
-        <Work />
+        <Folders />
+        <Education />
         <Philosophy />
-        <About />
         <Contact />
       </main>
       <Footer />

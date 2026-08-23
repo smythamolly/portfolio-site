@@ -3,7 +3,6 @@
   gap: 1.8rem;
   justify-items: start;
   width: 100%;
-  margin-left: auto;
 }
 
 .contact__lead {
@@ -45,8 +44,3 @@
   border-color: var(--line-strong);
 }
 
-@media (min-width: 821px) {
-  .contact {
-    width: calc(100% - var(--gutter) - 2rem);
-  }
-}

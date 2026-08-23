@@ -6,7 +6,6 @@ export default function Philosophy() {
   return (
     <Section
       id="philosophy"
-      eyebrow={philosophy.eyebrow}
       title={philosophy.title}
       className="section--alt"
     >
