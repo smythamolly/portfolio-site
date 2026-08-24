@@ -2,16 +2,16 @@
   {
     "label": "Project One",
     "to": "projectOne",
-    "tint": "sage"
+    "tint": "blossom"
   },
   {
     "label": "Project Two",
     "to": "projectTwo",
-    "tint": "timber"
+    "tint": "glass"
   },
   {
     "label": "Project Three",
     "to": "projectThree",
-    "tint": "clay"
+    "tint": "leaf"
   }
 ]

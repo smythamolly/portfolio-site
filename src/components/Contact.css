@@ -21,7 +21,7 @@
 }
 
 .contact__email:hover {
-  border-color: var(--sage-600);
+  border-color: var(--accent-600);
 }
 
 .contact__socials {

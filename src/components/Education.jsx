@@ -1,10 +1,11 @@
 import { education } from '../data/site'
+import Art from './art/Art'
 import Section from './Section'
 import './Education.css'
 
 export default function Education() {
   return (
-    <Section id="education" title={education.title}>
+    <Section id="education" title={education.title} art={<Art name="bulb" width="clamp(72px, 9vw, 104px)" />}>
       <ul className="education reveal">
         {education.entries.map((entry) => (
           <li key={entry.award} className="education__entry">

@@ -25,3 +25,8 @@ dist-ssr
 
 # Claude Code local config
 .claude/
+
+# Original scans and photos of artwork — working files, not published
+art-source/*
+!art-source/README.md
+.vite/

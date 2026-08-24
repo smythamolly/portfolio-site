@@ -1,4 +1,5 @@
 import { philosophy, strengths } from '../data/site'
+import Art from './art/Art'
 import Section from './Section'
 import './Philosophy.css'
 
@@ -7,7 +8,8 @@ export default function Philosophy() {
     <Section
       id="philosophy"
       title={philosophy.title}
-      className="section--alt"
+      art={<Art name="butterfly" width="clamp(34px, 4vw, 48px)" />}
+      className="section--wash"
     >
       <div className="philosophy">
         <div className="philosophy__statement reveal">
