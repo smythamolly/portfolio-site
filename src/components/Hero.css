@@ -114,14 +114,15 @@
 
 .hero__butterfly {
   position: absolute;
-  top: 4%;
-  right: -8%;
+  top: -6%;
+  right: 2%;
 }
 
+/* Kept inside the art column so it never drifts over the bio text. */
 .hero__leaf {
   position: absolute;
-  bottom: 14%;
-  left: -14%;
+  bottom: 6%;
+  left: 4%;
 }
 
 @media (max-width: 900px) {

@@ -214,44 +214,48 @@ export function Sprig({ className = '', size = 90, flip = false }) {
 }
 
 /*
- * The bulb itself: glass body broken open at the top, threaded screw cap below,
- * blossoms and leaves growing out of the opening.
+ * The bulb, following the sketchbook composition: lying on its side, screw cap
+ * to the right, the glass torn open in a jagged break at the left, a blue wash
+ * pooled inside and blossoms on stems growing out through the neck.
  */
 const GLASS =
-  'M70 214C53 196 39 175 39 149C39 118 55 92 78 81L86 96L96 74L107 92L118 72L129 90L140 78C155 92 163 119 163 149C163 175 149 196 132 214Z'
+  'M296 104C262 74 206 58 152 66C126 70 104 78 86 88L118 112L70 126L112 150L58 168L104 188L74 206C104 220 150 228 196 222C240 216 274 198 296 172Z'
 
-const CAP = 'M72 214H130L127 236H75Z'
+const CAP =
+  'M296 100C320 99 348 105 360 116C368 124 368 152 360 160C348 171 320 177 296 176Z'
 
-export function BulbVase({ className = '', size = 300, showButterfly = true }) {
+export function BulbVase({ className = '', size = 340, showButterfly = true }) {
   const id = useId()
 
   return (
     <svg
       className={`motif motif--bulb ${className}`}
       width={size}
-      height={size * 1.12}
-      viewBox="0 0 200 224"
+      height={size * 0.66}
+      viewBox="0 0 420 276"
       aria-hidden="true"
       focusable="false"
     >
       <Washes id={id} />
 
-      {/* Glass wash */}
-      <path d={GLASS} fill={`url(#${id}-glass)`} filter={`url(#${id}-wc)`} opacity="0.85" />
+      {/* Blue wash pooled inside the glass */}
+      <path d={GLASS} fill={`url(#${id}-glass)`} filter={`url(#${id}-wc)`} opacity="0.8" />
 
-      {/* Stems rising out of the broken opening */}
+      {/* Stems running back toward the neck */}
       <g className="motif__stem">
-        <path d="M101 150C99 120 92 96 74 74M101 150C104 122 112 100 132 80M101 152C101 132 101 112 101 84" />
+        <path d="M300 138C268 132 232 122 196 108M300 140C266 146 226 156 190 176M300 139C272 142 244 146 214 146" />
+        <path d="M244 128 236 116M262 132 256 120M232 152 224 162M258 148 252 158" />
       </g>
 
-      {/* Flowers and leaves */}
+      {/* Leaves and blossoms inside the glass */}
       <g filter={`url(#${id}-wc)`}>
-        <ellipse cx="86" cy="104" rx="13" ry="7" fill={`url(#${id}-leaf)`} transform="rotate(-38 86 104)" />
-        <ellipse cx="119" cy="112" rx="12" ry="6.5" fill={`url(#${id}-leaf)`} transform="rotate(34 119 112)" />
+        <ellipse cx="236" cy="116" rx="14" ry="7" fill={`url(#${id}-leaf)`} transform="rotate(-32 236 116)" />
+        <ellipse cx="224" cy="164" rx="13" ry="6.5" fill={`url(#${id}-leaf)`} transform="rotate(28 224 164)" />
+        <ellipse cx="266" cy="120" rx="11" ry="5.5" fill={`url(#${id}-leaf)`} transform="rotate(-24 266 120)" />
         {[
-          [72, 66, 1.05],
-          [134, 72, 0.88],
-          [101, 74, 0.74],
+          [188, 104, 1.15],
+          [182, 180, 1],
+          [206, 146, 0.82],
         ].map(([x, y, scale]) => (
           <g key={`${x}-${y}`} transform={`translate(${x} ${y}) scale(${scale}) translate(-20 -20)`}>
             {[0, 72, 144, 216, 288].map((angle) => (
@@ -262,23 +266,34 @@ export function BulbVase({ className = '', size = 300, showButterfly = true }) {
         ))}
       </g>
 
-      {/* Ink line work over the top */}
+      {/* Loose petals drifting inside, as on the page */}
+      <g className="motif__petals" filter={`url(#${id}-wc)`}>
+        <circle cx="128" cy="104" r="4" />
+        <circle cx="150" cy="140" r="3" />
+        <circle cx="120" cy="176" r="3.4" />
+        <circle cx="164" cy="196" r="2.6" />
+      </g>
+
+      {/* Ink line work over the paint */}
       <g className="motif__ink">
         <path d={GLASS} />
-        <path d="M56 150C56 172 64 190 74 202" className="motif__highlight" />
-        <path d="M146 152C146 170 140 186 132 198" className="motif__highlight" />
+        <path d="M112 208C150 218 196 220 236 212" className="motif__highlight" />
+        <path d="M126 196C160 204 200 206 232 200" className="motif__highlight" />
 
+        {/* Screw cap and its threads */}
         <path d={CAP} />
-        <path d="M74 220H128M75.5 226H126.5M77 232H125" />
-        <path d="M77 236C82 248 90 254 101 254C112 254 120 248 125 236" />
+        <path d="M296 101V176" />
+        <path d="M308 101C312 119 312 158 308 175M321 104C325 120 325 156 321 172M334 109C338 123 338 154 334 168M346 116C350 127 350 150 346 161M356 125C359 131 359 146 356 152" />
+        <path d="M366 130C380 125 391 132 391 138C391 145 380 152 366 147" />
 
-        <ellipse cx="86" cy="104" rx="13" ry="7" transform="rotate(-38 86 104)" />
-        <ellipse cx="119" cy="112" rx="12" ry="6.5" transform="rotate(34 119 112)" />
+        <ellipse cx="236" cy="116" rx="14" ry="7" transform="rotate(-32 236 116)" />
+        <ellipse cx="224" cy="164" rx="13" ry="6.5" transform="rotate(28 224 164)" />
+        <ellipse cx="266" cy="120" rx="11" ry="5.5" transform="rotate(-24 266 120)" />
 
         {[
-          [72, 66, 1.05],
-          [134, 72, 0.88],
-          [101, 74, 0.74],
+          [188, 104, 1.15],
+          [182, 180, 1],
+          [206, 146, 0.82],
         ].map(([x, y, scale]) => (
           <g key={`${x}-${y}`} transform={`translate(${x} ${y}) scale(${scale}) translate(-20 -20)`}>
             {[0, 72, 144, 216, 288].map((angle) => (
@@ -290,7 +305,7 @@ export function BulbVase({ className = '', size = 300, showButterfly = true }) {
       </g>
 
       {showButterfly && (
-        <g transform="translate(150 118) scale(0.62)">
+        <g transform="translate(292 26) scale(0.72)">
           <g fill={`url(#${id}-wing)`} filter={`url(#${id}-wc)`}>
             <path d="M30 26C22 8 12 2 6 8C0 14 6 28 18 30C24 31 28 29 30 26Z" />
             <path d="M30 26C38 8 48 2 54 8C60 14 54 28 42 30C36 31 32 29 30 26Z" />
@@ -305,6 +320,10 @@ export function BulbVase({ className = '', size = 300, showButterfly = true }) {
             <path d="M30 20C31.6 23 31.6 32 30 36C28.4 32 28.4 23 30 20Z" />
             <path d="M30 21C27 15 24 11 20 9M30 21C33 15 36 11 40 9" />
           </g>
+          <g className="motif__dots">
+            <circle cx="20" cy="9" r="1.9" />
+            <circle cx="40" cy="9" r="1.9" />
+          </g>
         </g>
       )}
     </svg>
@@ -312,6 +331,6 @@ export function BulbVase({ className = '', size = 300, showButterfly = true }) {
 }
 
 /** The same bulb, small enough to sit beside a heading. */
-export function BulbSmall({ className = '', size = 76 }) {
+export function BulbSmall({ className = '', size = 90 }) {
   return <BulbVase className={`motif--bulb-small ${className}`} size={size} showButterfly={false} />
 }
