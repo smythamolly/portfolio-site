@@ -1,5 +1,5 @@
 import { profile } from '../data/site'
-import { Blossom, BulbVase, Butterfly, Leaf } from './art/Motifs'
+import Art from './art/Art'
 import './Hero.css'
 
 export default function Hero() {
@@ -9,8 +9,7 @@ export default function Hero() {
         <div className="hero__copy">
           <div className="hero__titleblock">
             <h1 className="hero__title">{profile.name}</h1>
-            <Blossom className="hero__bloom hero__bloom--a" size={30} />
-            <Blossom className="hero__bloom hero__bloom--b" size={20} />
+            <Art name="flower" className="hero__bloom" width="clamp(38px, 5vw, 58px)" eager />
           </div>
 
           <p className="hero__role">{profile.role}</p>
@@ -40,9 +39,7 @@ export default function Hero() {
         </div>
 
         <div className="hero__art">
-          <BulbVase className="hero__bulb" size={320} />
-          <Butterfly className="hero__butterfly" size={44} tone="pink" />
-          <Leaf className="hero__leaf" size={52} rotate={22} />
+          <Art name="bulb" className="hero__bulb" eager />
         </div>
       </div>
     </section>

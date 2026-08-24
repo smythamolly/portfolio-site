@@ -1,5 +1,5 @@
 import { folders, href, projects } from '../data/site'
-import { Sprig } from './art/Motifs'
+import Art from './art/Art'
 import Section from './Section'
 import './Folders.css'
 
@@ -25,7 +25,7 @@ export default function Folders() {
       id="projects"
       title={projects.title}
       lead={projects.lead}
-      art={<Sprig size={84} />}
+      art={<Art name="flower" width="clamp(34px, 4vw, 46px)" />}
     >
       <ul className="folders reveal">
         {folders.map((folder, i) => (

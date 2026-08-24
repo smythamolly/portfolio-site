@@ -1,5 +1,5 @@
 import { contact, profile } from '../data/site'
-import { BulbSmall } from './art/Motifs'
+import Art from './art/Art'
 import Section from './Section'
 import './Contact.css'
 
@@ -8,7 +8,7 @@ export default function Contact() {
     <Section
       id="contact"
       title={contact.title}
-      art={<BulbSmall size={60} />}
+      art={<Art name="bulb" width="clamp(72px, 9vw, 104px)" />}
       className="section--alt"
     >
       <div className="contact reveal">

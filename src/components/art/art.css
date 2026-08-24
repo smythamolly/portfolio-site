@@ -1,0 +1,8 @@
+/* Painted cut-outs are decorative: never selectable, never hit-testable. */
+.art {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  pointer-events: none;
+  user-select: none;
+}

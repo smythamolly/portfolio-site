@@ -29,3 +29,4 @@ dist-ssr
 # Original scans and photos of artwork — working files, not published
 art-source/*
 !art-source/README.md
+.vite/
