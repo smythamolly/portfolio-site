@@ -74,19 +74,19 @@
   fill: var(--paper);
 }
 
-.folders__item[data-tint='sage'] {
-  --tint: #8ba081;
-  --tint-dark: #5d7054;
+.folders__item[data-tint='blossom'] {
+  --tint: #f58cb0;
+  --tint-dark: #d9527f;
 }
 
-.folders__item[data-tint='timber'] {
-  --tint: #c9a172;
-  --tint-dark: #a17748;
+.folders__item[data-tint='glass'] {
+  --tint: #8ac9e8;
+  --tint-dark: #4a97c2;
 }
 
-.folders__item[data-tint='clay'] {
-  --tint: #c98f76;
-  --tint-dark: #a3654c;
+.folders__item[data-tint='leaf'] {
+  --tint: #7fd0a3;
+  --tint-dark: #3fa473;
 }
 
 .folder__label {

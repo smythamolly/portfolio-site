@@ -1,26 +1,38 @@
 :root {
-  /* Sage — primary accent, drawn from the style board */
-  --sage-900: #2b332a;
-  --sage-800: #3a4738;
-  --sage-700: #4c5c47;
-  --sage-600: #61735a;
-  --sage-400: #93a389;
-  --sage-200: #c9d2c0;
-  --sage-100: #e4e8dd;
+  /*
+   * Palette lifted from Molly's bulb-vase drawing: glass blue, blossom pink,
+   * leaf green and butterfly violet, sitting on white paper.
+   */
+  --accent-900: #12384d;
+  --accent-800: #185a7b;
+  --accent-700: #1f6d95;
+  --accent-600: #2f88b4;
+  --accent-400: #7cc0dd;
+  --accent-200: #c3e3f2;
+  --accent-100: #e6f4fb;
 
-  /* Warm neutrals — plaster, timber, clay */
-  --paper: #faf7f1;
-  --paper-alt: #f2ede3;
-  --timber: #b98d5f;
-  --timber-soft: #e6d6c1;
-  --clay: #b9755c;
-  --clay-soft: #ecd5c9;
+  --paper: #ffffff;
+  --paper-alt: #fdf6f9;
 
-  --line: #e4ddd0;
-  --line-strong: #cdc3b1;
-  --ink: #1f211d;
-  --ink-soft: #4b4f47;
-  --muted: #7f8278;
+  /* Motif colours — used by the illustrations and sparingly as accents */
+  --glass: #6fb3d9;
+  --glass-soft: #bcdff0;
+  --blossom: #ef6f9b;
+  --blossom-deep: #d84571;
+  --blossom-soft: #ffc9dc;
+  --leaf: #4fb98a;
+  --leaf-soft: #aee0c5;
+  --wing: #a385c9;
+  --wing-soft: #d8caeb;
+  --pollen: #f2c14e;
+  --accent-warm: #e0a23c;
+  --accent-warm-soft: #f7e2b8;
+
+  --line: #e9e5e8;
+  --line-strong: #d2ccd1;
+  --ink: #16181a;
+  --ink-soft: #42474c;
+  --muted: #767d84;
 
   --font-display: 'Inter Tight', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -103,12 +115,12 @@ figure {
 }
 
 ::selection {
-  background: var(--sage-200);
-  color: var(--sage-900);
+  background: var(--accent-200);
+  color: var(--accent-900);
 }
 
 :focus-visible {
-  outline: 2px solid var(--sage-600);
+  outline: 2px solid var(--accent-600);
   outline-offset: 3px;
 }
 

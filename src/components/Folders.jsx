@@ -1,4 +1,5 @@
 import { folders, href, projects } from '../data/site'
+import { Sprig } from './art/Motifs'
 import Section from './Section'
 import './Folders.css'
 
@@ -20,7 +21,12 @@ function FolderIcon() {
 
 export default function Folders() {
   return (
-    <Section id="projects" title={projects.title} lead={projects.lead}>
+    <Section
+      id="projects"
+      title={projects.title}
+      lead={projects.lead}
+      art={<Sprig size={84} />}
+    >
       <ul className="folders reveal">
         {folders.map((folder, i) => (
           <li key={folder.label} className="folders__item" data-tint={folder.tint} style={{ '--i': i }}>

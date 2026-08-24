@@ -51,7 +51,7 @@
 .next-project__arrow {
   width: 1.4rem;
   height: 1.4rem;
-  color: var(--sage-700);
+  color: var(--accent-700);
   transition: transform 0.25s var(--ease);
 }
 

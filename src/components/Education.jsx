@@ -1,10 +1,11 @@
 import { education } from '../data/site'
+import { BulbSmall } from './art/Motifs'
 import Section from './Section'
 import './Education.css'
 
 export default function Education() {
   return (
-    <Section id="education" title={education.title}>
+    <Section id="education" title={education.title} art={<BulbSmall size={64} />}>
       <ul className="education reveal">
         {education.entries.map((entry) => (
           <li key={entry.award} className="education__entry">

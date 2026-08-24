@@ -31,9 +31,9 @@
 .piece__note {
   margin-top: 0.4rem;
   padding-left: 0.6rem;
-  border-left: 2px solid var(--timber);
+  border-left: 2px solid var(--accent-warm);
   font-size: 0.8rem;
-  color: var(--timber);
+  color: var(--accent-warm);
 }
 
 .piece__body {

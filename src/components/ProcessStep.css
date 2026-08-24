@@ -20,7 +20,7 @@
 .step__number {
   font-size: 0.75rem;
   letter-spacing: 0.16em;
-  color: var(--timber);
+  color: var(--accent-warm);
 }
 
 .step__title {

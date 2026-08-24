@@ -19,9 +19,34 @@
   margin-bottom: clamp(2.5rem, 5vw, 3.5rem);
 }
 
+/* Holds the heading and its motif on one line. */
+.section__heading {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
 .section__title {
   font-size: clamp(1.7rem, 1.4rem + 1.4vw, 2.4rem);
   letter-spacing: -0.026em;
+}
+
+/* Watercolour bloom for sections that carry one. */
+.section--wash {
+  position: relative;
+  isolation: isolate;
+}
+
+.section--wash::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(30% 46% at 6% 22%, rgb(239 111 155 / 0.14), transparent 74%),
+    radial-gradient(34% 50% at 88% 30%, rgb(111 179 217 / 0.16), transparent 74%),
+    radial-gradient(26% 38% at 62% 92%, rgb(79 185 138 / 0.12), transparent 76%);
+  filter: blur(6px);
 }
 
 .section__lead {
@@ -44,12 +69,12 @@
 }
 
 .btn--solid {
-  background: var(--sage-700);
+  background: var(--accent-700);
   color: var(--paper);
 }
 
 .btn--solid:hover {
-  background: var(--sage-900);
+  background: var(--accent-900);
 }
 
 .btn--quiet {
@@ -61,7 +86,7 @@
 
 .btn--quiet:hover {
   color: var(--ink);
-  border-color: var(--sage-600);
+  border-color: var(--accent-600);
 }
 
 .link-arrow {
@@ -69,7 +94,7 @@
   align-items: center;
   gap: 0.4rem;
   font-size: 0.9rem;
-  color: var(--sage-700);
+  color: var(--accent-700);
   transition: color 0.25s var(--ease);
 }
 
